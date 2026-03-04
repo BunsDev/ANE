@@ -110,6 +110,14 @@ Key optimizations:
     └── Makefile
 ```
 
+## Training Data
+
+Training requires pretokenized TinyStories data. To download:
+```bash
+cd training && bash download_data.sh
+```
+See [training/README.md](training/README.md) for detailed training instructions.
+
 ## Building
 
 Requires macOS 15+ on Apple Silicon (tested on M4).
